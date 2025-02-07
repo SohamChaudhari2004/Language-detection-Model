@@ -1,5 +1,5 @@
 # Use a smaller and more optimized base image
-FROM tiangolo/uvicorn-gunicorn-fastapi:python3.9-slim
+FROM tiangolo/uvicorn-gunicorn-fastapi:python3.10-slim
 
 # Set the working directory inside the container
 WORKDIR /app
